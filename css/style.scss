@@ -1,0 +1,565 @@
+$green-color: #66BC6D;
+
+*{
+  margin: 0;
+}
+body{
+  background-color: white !important;
+  text-align: center;
+
+}
+
+/**Home Page Styles**/
+.home-page-intro{
+  float: left;
+  display: inline;
+  width: 100%;
+}
+
+.home-page-intro h1{
+  color: #555555;
+  margin-top: 200px
+}
+
+.text_style{
+  font: 600 2em/1 Oswald,sans-serif;
+  margin: 0 auto;
+  background: 100 150px;
+  background-color: #4aa214;
+  background-image: linear-gradient(135deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);
+  background-image: -webkit-linear-gradient(-45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  webkit-animation: aitf 10s linear infinite;
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+}
+
+
+
+/***Home Page Contents Style***/
+.home-page-contents{
+  margin-bottom: 50px
+}
+
+.home-page-contents h3{
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 900;
+}
+.home-page-contents a{
+
+}
+
+.home-page-contents button{
+  font-family: tahoma;
+  font-weight: bolder;
+  background-color: transparent;
+  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid green;
+  border-radius: 29px;
+  color: green;
+
+}
+
+.home-page-contents button h3{
+
+}
+
+.home-page-contents button:hover{
+  background-color: #4aa214;
+}
+
+.home-page-contents button:active{
+  background-color: #5ba214;
+}
+
+.option-choosing-buttons{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+input[type="email"]{
+  width: 300px;
+  height: 35px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-family: inherit;
+  font-weight:bold
+
+}
+
+input[type="password"]{
+  width: 300px;
+  height: 35px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-family: inherit;
+  font-weight:bold
+
+
+}
+
+
+input[type="text"]{
+  width: 300px;
+  height: 35px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-family: inherit;
+  font-weight:bold
+
+}
+
+
+input[type="number"]{
+  width: 300px;
+  height: 35px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-family: inherit;
+  font-weight:bold
+
+}
+
+input[type="search"]{
+  width: 100px;
+  height: 35px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-family: inherit;
+  font-weight:bold;
+  text-align: center;
+  transition-duration: .500s
+
+}
+
+
+input[type="email"]:focus{
+  border: 2px solid green;
+}
+
+input[type="password"]:focus{
+  border: 2px solid green
+}
+
+input[type="text"]:focus{
+  border: 2px solid green
+}
+
+input[type="number"]:focus{
+  border: 2px solid green
+}
+
+input[type="search"]:focus{
+  border: 2px solid green;
+  background-color: aliceblue;
+  width: 300px;
+  transition-duration: .500s;
+  border-radius: 5px
+}
+
+
+
+/***Home Page Footer Styles***/
+.home-page-footer{
+  text-align: center;
+  font: 800 2em/1 Oswald,sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+  background: 50 50px;
+  background-color: #4aa214;
+  background-image: linear-gradient(135deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);
+  background-image: -webkit-linear-gradient(-45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  webkit-animation: aitf 10s linear infinite;
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+}
+
+.admin_login_intro{
+  text-align: center;
+}
+
+
+h1{
+  font-family: tahoma;
+  font-size: 50px;
+  margin-bottom: 10px
+
+}
+
+p{
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 30px
+}
+
+
+
+
+.admin_login_form{
+  text-align: center
+
+}
+
+
+
+
+/***Admin login page***/
+.admin_login{}
+
+.admin_login_intro h1{
+  font-family: tahoma;
+  font-size: 50px;
+  color: green !important;
+  margin-top: 100px;
+}
+
+.admin_login_intro p{
+  font-family: tahoma;
+  font-size: 20px;
+  color: black !important;
+  margin-top: 10px;
+  margin-bottom: 100px
+}
+
+
+/***Admin Profile Page***/
+
+.admin_profile_intro{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.admin_profile_intro h3{
+  font-family: tahoma;
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+  left: 10px;
+  margin-top:100px;
+;border: 2px dashed grey;
+  padding:20px
+}
+
+.admin_profile_intro h4{
+  font-size: 25px;
+  padding: 20px;
+}
+
+.admin_choosing_options{
+  padding: 20px;
+  font-size:20px;
+  font-weight:bold;
+  border: 1px solid grey;
+  background-color:aliceblue;
+  margin-top: 10px;
+  margin-bottom: 130px
+
+}
+
+.admin_choosing_options:hover{
+  border:2px solid yellowgreen;
+}
+
+
+.students_option{
+
+  display: none;
+  margin-bottom: 50px
+}
+
+.list{
+  margin-bottom:50px
+}
+.list h3{
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px;
+  color: grey !important;
+  border: 2px solid grey;
+  margin-bottom: 50px
+}
+
+.approve h3{
+
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px;
+  color: grey!important;
+  border: 2px solid grey;
+  margin-bottom: 50px
+
+}
+
+#teachersss{
+
+  padding: 30px;
+
+
+
+}
+
+#teachersss h2{
+  font-size: 50px !important;
+  font-family: sans-serif;
+  font-weight: bolder
+}
+
+#studentsss{
+  font-size: 35px;
+  padding: 30px;
+
+}
+
+#studentsss h2{
+  font-size: 50px !important;
+  font-family: sans-serif;
+  font-weight: bolder
+}
+
+.t button{
+  font-family: tahoma;
+  font-weight: bolder;
+  background-color: transparent;
+  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid green;
+  border-radius: 29px;
+  color: green;
+
+}
+
+
+
+.t button:hover{
+  background-color: #4aa214;
+}
+
+.t a{
+  color:grey
+}
+
+.teachers_option{
+  display: none;
+  margin-bottom: 50px
+}
+
+.teachers_option h3{
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px;
+  color: green;
+}
+
+
+
+.list{
+  text-align: center;
+  align-content: center
+}
+
+/*Result list page*/
+.admin_result_show{
+  height: 500px
+}
+
+.admin_result_show h1{
+  margin-top: 300px
+}
+
+
+
+
+/*Table Styles*/
+table {
+  font-family: tahoma;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+th{
+  border: 1px solid #dddddd !important;
+  background-color:#66BC6D !important;
+  padding: 10px !important;
+  text-align:center !important;
+  font-size: 20px;
+  font-weight:700
+
+}
+
+
+td {
+  border: 1px solid #dddddd !important;
+  padding: 8px !important;
+  font-size: 15px !important;
+  font-weight: 900 !important
+}
+tr{
+
+}
+
+tr:nth-child(odd) {
+  background-color:#B1FAB7 !important;
+}
+
+
+.not_approval_msg{
+  background-color: red;
+  opacity: .5;
+  font-size: 30px;
+  padding: 100px;
+  margin-bottom: 30px
+}
+
+.teacher_features{
+  margin-bottom: 30px;
+}
+
+.features{
+  background-color: blue;
+  opacity: .5;
+  width: 20%;
+  color: red;
+  float: left;
+  padding: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px
+}
+
+.features a{
+  color: red
+}
+
+.teacher_notice_board{
+
+}
+
+.teacher_notice_board h2{
+  font-size: 40px;
+  margin-right: 300px;
+  margin-top: 100px
+}
+
+
+
+/***Student Login Page Styles***/
+
+.admin_login{}
+
+.login_intro h1{
+  font-family: tahoma;
+  font-size: 50px;
+  color: $green-color !important;
+  margin-top: 100px;
+}
+
+.login_intro p{
+  font-family: tahoma;
+  font-size: 20px;
+  color: black !important;
+  margin-top: 10px;
+  margin-bottom: 100px
+}
+
+
+/*Student profile page addition styles*/
+.exam_schedule{
+  h2{
+    font-size:30px;
+    font-weight:600;
+    margin-top:20px;
+    margin-bottom:20px;
+
+  }
+}
+
+.change_profile_pic{
+  text-align:center;
+
+}
+
+/***Written exam show page***/
+
+.clock_div{
+z-index: 1;
+  margin-left: -50px;
+  h4{
+    color:$green-color;
+  }
+}
+#show{
+  margin-top:-30px;
+  margin-left:220px;
+  font-weight:600;
+}
+
+
+.exam_intro{
+  h1{
+    font-weight:900;
+    margin-top:200px;
+    margin-left: 130px;
+    font-size:60px;
+    color: $green-color;
+  }
+}
+
+.exam_det{
+  margin-bottom:15px;
+  margin-top:5vh
+}
+.exam_det_ind{
+font-size: 20px;
+  font-weight:600;
+  padding:10px;
+  z-index: -1;
+  border:1px solid grey;
+  background-color: #E7FFE9;
+  margin-top:20px;
+  margin-bottom:20px
+
+}
+
+.questions_show{
+  h3{
+    font-family:Calibri;
+    font-size:30px;
+    font-weight:500;
+  }
+}
+
+
+/**Student registration page styles**/
+.reg_intro{
+  height:100vh;
+  h2{
+    font-size:50px;
+    font-weight:600;
+
+  }
+}
+
+.registration_div{
+  input[type="text"]{
+    width:200px;
+  }
+}
